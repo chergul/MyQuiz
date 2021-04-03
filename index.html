@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My quiz page</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> QUIZ </h1>
+    
+    </header>
+
+    <section class="container">
+        <div id="initialContent" class=" ">
+            <p>Welcome to my little quiz!</p>
+            <button id="startBtn"> START </button>
+            <h3>Last user's score</h3>
+            <br>
+            <div>
+                <ul id="highScores">
+
+                </ul>
+            </div>
+        </div>
+
+        <div id="questionsBox" class="hide">
+            <h2 id="question"></h2>
+            <div class='btn'></div>
+        </div>
+
+        <div id="counter">
+
+        </div>
+
+        <div id="finalContent" class="hide">
+            <h2>You have completed the quiz!</h2>
+            <h1 id=finalScore></h1>
+            <input type="text" name="name" id="initialsInput" placeholder="Type your initials" maxlength="4">
+            <input type="submit" value='Submit' id="submitScore">
+        </div>
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>

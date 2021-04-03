@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to top left, rgb(146, 62, 146),rgb(240, 181, 240));
+    height: 100vh;
+    text-align: center;
+}
+
+button {
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+}
+.container {
+    background-color:rgb(214, 203, 216);
+    border-radius: 20px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+   
+}
+
+.hide {
+    display: none;
+    padding: 0px;
+}
