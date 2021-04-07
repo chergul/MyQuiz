@@ -131,7 +131,7 @@ function setQuestion() {
 //This helps us to go to the next question
 
     x = x + 1;
-    
+ //Thisone will star the quiz   
     questionList.addEventListener("click", selectAnswer)
 };
     
@@ -145,7 +145,11 @@ function selectAnswer(event){
            rightAnswer()
         }
         else {
-           wrongAnswer()
+           wrongAnswer();
+
+           //-10 sec on every wrong answer
+           alert("That Is Incorrect.")
+           secondsLeft-=10;
         }
     }
         setQuestion();
@@ -174,11 +178,12 @@ startQuiz.addEventListener('click', function() {
         clearInterval(timerInterval);
         endQuiz()
         }
+
     
     }, 1000);
     console.log(secondsLeft)
 
-//-10 sec on every wrong answer	???????
+
 
 
 
