@@ -1,11 +1,21 @@
-# Homework-MyQuiz
+# MyQuiz
 
-This is the homework-4 for making quiz with countdown. 
+Making quiz with countdown that if the user gives wrong answers the system will substract 10 more seconds from the countdown.
+
+## Table of Contents
+* [Link for the repo](#link-for-the-repo)
+* [Screenshot](#screenshot)
+* [Questions](#questions)
 
 ## Link for the repo
 
-[homework](https://chergul.github.io/MyQuiz/.)
+https://chergul.github.io/MyQuiz/
 
-## Screenshot for the application
+## Screenshot
 
 ![Screenshot](screenshot.png)
+
+## Questions
+If you have any questions about this repo, you can open an issue, or contact directly at 
+ceyda_hergul@hotmail.com
+Pull requests are welcome
